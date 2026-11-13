@@ -1,2 +1,2 @@
 # Project-list-and-capabilites
-A list of accomplitments related for resume.
+A list of accomplishments related for resume.
