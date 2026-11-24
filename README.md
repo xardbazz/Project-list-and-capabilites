@@ -1,29 +1,31 @@
 # Project Portfolio
 
-A curated portfolio of software, systems, infrastructure, design, and technical-writing work. Projects include personal experiments, home-lab work, and study assignments; they are not presented as commercial client deployments.
+A curated portfolio of technical projects, systems work, design prototypes, and technical writing. Projects include personal and academic work and are not presented as commercial client deployments.
 
 ## Systems and Infrastructure
 
-- **Offline voice assistant on ODROID-C2** — local speech recognition with Qwen2.5 through Ollama and Piper speech output; boot and audio troubleshooting on a 2 GB ARM board.
-- **Windows 11 virtualization on Arch Linux** — booted an existing Windows installation as a VirtualBox VM while isolating the host EFI and GRUB setup.
-- **Arch Linux and Windows dual boot** — planned the EFI layout, configured GRUB and Windows detection, and set up NVIDIA drivers on one NVMe drive.
-- **Linux troubleshooting and recovery** — image-first SD-card recovery and APT repository/network diagnosis on an ARM board.
-- **RustDesk rendezvous setup** — configured and checked the `hbbs` service on Windows. The case study distinguishes it from the separate `hbbr` relay and does not claim a full relay deployment.
+- **Offline Voice Assistant on ODROID-C2** — local speech recognition and speech output on a 2 GB ARM board.
+- **Arch Linux and Windows Dual-Boot Setup** — EFI planning, GRUB configuration, and NVIDIA driver setup on one NVMe drive.
+- **Windows 11 Virtualization on Arch Linux** — VirtualBox boot of an existing Windows installation using a separate virtual EFI disk.
+- **Linux Data Recovery and APT Troubleshooting** — SD-card imaging and recovery, plus APT repository and network diagnosis.
+- **Self-Hosted RustDesk Rendezvous Service** — Windows `hbbs` setup and verification; the case study does not claim a full relay deployment.
+- **RoutesConverter** — standalone Windows batch utility that converts route entries to CIDR notation.
 
-## Software and Automation
+## Software
 
-- **KamCam** — Python desktop tool routing Android video to a Linux virtual camera using scrcpy and v4l2loopback. A separate Windows camera path uses a native C++ component and is still being evaluated.
 - **Green API Chat** — React and TypeScript test assignment for sending and receiving WhatsApp messages through Green-API.
-- **RoutesConverter** — Windows batch script converting route entries and subnet masks to CIDR notation.
+- **KamCam** — Python desktop tool for routing Android video into a Linux virtual camera.
 - **Issa-Tech** — university e-commerce project with product management, a cart, and order processing.
-- **Farming Simulator** — Unity and C# game prototype with basic planting, growth, and economy mechanics.
+- **Farming Simulator** — Unity and C# game prototype with planting, growth, and basic economy mechanics.
 
 ## Design and Interactive Media
 
-- **Adobe XD interface prototypes** — mobile UI concepts for EVE appointment scheduling, medication reminders, and Smile phone-number onboarding. These are design prototypes, not claims of implemented products.
-- **Half-Life Lambda Audio Visualizer** — Wallpaper Engine project combining an audio visualizer, WebGL fluid simulation, and animated Lambda logo.
-- **Custom audio-reactive OBS overlay** — streaming overlay and visual assets built around OBS and audio-reactive presentation.
+- **Adobe XD Interface Prototypes** — mobile interface concepts for EVE appointment scheduling, medication reminders, and Smile onboarding.
+- **Custom Audio-Reactive OBS Overlay** — browser-based audio visualizer and now-playing overlay.
+- **Half-Life Lambda Audio Visualizer** — Wallpaper Engine project combining audio visualization, WebGL fluid effects, and an animated logo.
 
 ## Technical Writing
 
-- **Valve and Linux** — personal article about choosing and configuring a Linux and Windows setup for gaming and development.
+- **Valve and Linux** — personal article about selecting and configuring an operating-system setup for gaming and development.
+
+Case-study PDFs are grouped by topic in the folders above. Editable Word files and the reusable case-study template are kept locally in `Docs Word` and are excluded from Git.
